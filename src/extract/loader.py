@@ -2,11 +2,12 @@ from abstract import ABC, abstractmethod
 from config import GEGE_API_KEY, workspace1, project1, dataset_name
 import kagglehub
 from roboflow import Roboflow
+
+
 class DataLoader(ABC):
     """
         Abstract base class for data loaders. The use of data loader is to load the latest 
         dataset from the source, which can be Roboflow, Kaggle, or any other source.
-        
     """
 
     @abstractmethod
