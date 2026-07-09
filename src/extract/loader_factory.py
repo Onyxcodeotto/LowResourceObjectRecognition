@@ -1,5 +1,5 @@
 
-from extract.loader import RoboflowDataLoader, KaggleDataLoader
+from .loader import KaggleDataLoader, RoboflowDataLoader
 
 
 class LoaderFactory:
