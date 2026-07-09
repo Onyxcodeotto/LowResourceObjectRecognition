@@ -1,0 +1,16 @@
+{
+    "task_name": "anpr",
+    "datasets": [        
+        {
+            "dataset_type": "roboflow",
+            "api_key_id": "GEGEVENS_API_KEY",
+            "params": {
+                "workspace": "gegevens",
+                "project": "plat-wbejb-njzgc",
+                "version": 3,
+                "dataset_name": "IDN_Vehicle_Plate_Recognition",
+                "dataset_location": "./datasets/anpr/raw/primary"
+            }
+        }
+    ]
+}

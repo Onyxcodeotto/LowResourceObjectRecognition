@@ -6,10 +6,10 @@
             "api_key_id": "GEGEVENS_API_KEY",
             "params": {
                 "workspace": "gegevens",
-                "project": "plat-wbejb-njzgc",
-                "version": 3,
+                "project": "idn_vehicle_plate_recognition-i0bea",
+                "version": 1,
                 "dataset_name": "IDN_Vehicle_Plate_Recognition",
-                "dataset_location": "./datasets/anpr/raw/primary"
+                "dataset_location": "./datasets/anpr/raw/BDC2023"
             }
         }
     ]
