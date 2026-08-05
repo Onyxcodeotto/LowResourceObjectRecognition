@@ -1,3 +1,6 @@
 .env
 /datasets/anpr
 /datasets/vehicle_type
+/.cypython
+**/__pycache__
+**.pyc
