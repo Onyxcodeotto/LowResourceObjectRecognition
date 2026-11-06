@@ -34,5 +34,5 @@ class KaggleDataLoader(DataLoader):
         self.dataset_location = kwargs["dataset_location"]
         self.dataset_name = kwargs["dataset_name"]
     def ingest(self):
-        path = kagglehub.download_dataset(self.dataset_name, output_dir=self.dataset_location, force_download=True)
+        path = kagglehub.dataset_download(self.dataset_name, output_dir=self.dataset_location, force_download=True)
         self.dataset = path

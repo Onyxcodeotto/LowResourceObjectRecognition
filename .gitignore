@@ -4,3 +4,7 @@
 /.cypython
 **/__pycache__
 **.pyc
+
+
+/data
+/.claude

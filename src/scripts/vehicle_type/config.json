@@ -6,7 +6,18 @@
             "api_key_id": "GEGEVENS_API_KEY",
             "params": {
                 "workspace": "gegevens",
-                "project": "plat-wbejb-njzgc",
+                "project": "golongan-5-kolxj",
+                "version": 1,
+                "dataset_name": "Golongan 5",
+                "dataset_location": "./datasets/vehicle_type/raw/golongan5"
+            }
+        },
+        {
+            "dataset_type": "roboflow",
+            "api_key_id": "GEGEVENS_API_KEY",
+            "params": {
+                "workspace": "gegevens",
+                "project": "golongan-kendaraan-lmppc",
                 "version": 3,
                 "dataset_name": "IDN_Vehicle_Plate_Recognition",
                 "dataset_location": "./datasets/anpr/raw/primary"
